@@ -38,7 +38,7 @@ analysis of river ice movement (polar hackathon '17) -- building a scalable pipe
 
       tcp:8800
     
- * Initialize jupyter notebook in terminal: ```jupyter notebook --ip=0.0.0.0 --port=8888 --no-browser &```
- * Launch notebook from browser: ```http://<your-static-ip>:8888```
+ * Initialize jupyter notebook in terminal: ```jupyter notebook --ip=0.0.0.0 --port=8800 --no-browser &```
+ * Launch notebook from browser: ```http://<your-static-ip>:8800```
 
 
