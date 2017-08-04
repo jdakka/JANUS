@@ -39,5 +39,5 @@ analysis of river ice movement (polar hackathon '17) -- building a scalable pipe
     
  * Initialize jupyter notebook in terminal: ```jupyter notebook --ip=0.0.0.0 --port=8800 --no-browser &```
  * Launch notebook from browser: ```http://<your-static-external-ip>:8800```
-
+ * source(https://jeffdelaney.me/blog/running-jupyter-notebook-google-cloud-platform/) 
 
