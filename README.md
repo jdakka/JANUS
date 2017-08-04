@@ -4,7 +4,7 @@ analysis of river ice movement (polar hackathon '17) -- building a scalable pipe
 ## Configuration of Jupyter Notebook with GCP
 
 * Create VM instance: Ubuntu, allow http traffic
-* On GCP console --> networking --> external IP: Change external IP address from <ephemeral> to <static> for VM instance
+* On GCP console --> networking --> external IP: Change external IP address from ephemeral to static for VM instance
 * From terminal : ```gcloud compute --project "<project-name>" ssh --zone "<your-zone>" "<instance-name>"```
 * ```apt-get install bzip2```
 * ```wget https://repo.continuum.io/miniconda/Miniconda2-latest-Linux-x86_64.sh```
@@ -38,6 +38,6 @@ analysis of river ice movement (polar hackathon '17) -- building a scalable pipe
       tcp:8800
     
  * Initialize jupyter notebook in terminal: ```jupyter notebook --ip=0.0.0.0 --port=8800 --no-browser &```
- * Launch notebook from browser: ```http://<your-static-ip>:8800```
+ * Launch notebook from browser: ```http://<your-static-external-ip>:8800```
 
 
