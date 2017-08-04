@@ -15,27 +15,26 @@ analysis of river ice movement (polar hackathon '17) -- building a scalable pipe
     * Create filewall rule with settings: 
     
       Network
-
       default
+      
       Priority
-
       1000
+      
       Direction
-
       Ingress
+      
       Action on match
-
       Allow
+      
       Targets
-
       Target tags
       https-server
+      
       Source filters
-
       IP ranges
       0.0.0.0/0
+      
       Protocols and ports
-
       tcp:8800
     
  * Initialize jupyter notebook in terminal: ```jupyter notebook --ip=0.0.0.0 --port=8800 --no-browser &```
